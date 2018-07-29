@@ -57,9 +57,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<p class="est animated wow zoomIn" data-wow-delay=".5s">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
 				deserunt mollit anim id est laborum.</p>
 			<div class="login-form-grids animated wow slideInUp" data-wow-delay=".5s">
-				<form>
-					<input type="email" placeholder="Email Address" required=" " >
-					<input type="password" placeholder="Password" required=" " >
+				<form method="post">
+					<input type="text" name="username" placeholder="Email Address" required=" " >
+					<input type="password" name="password" placeholder="Password" required=" " >
 					<div class="forgot">
 						<a href="<?=base_url()?>assets/#">Forgot Password?</a>
 					</div>
